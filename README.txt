@@ -4,7 +4,7 @@ NAME
 
 DESCRIPTION
     This script acts as a plugin module for the Nagios IT infrastructure
-    monitoring system. It on a FreeBSD server to pull for swap file
+    monitoring system. It on a FreeBSD server to poll for swap file
     information through pstat(8). This plugin reports on the following 4
     swap file measurements:
 
