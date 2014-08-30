@@ -44,7 +44,7 @@ my $plugin = Nagios::Plugin->new(
     	    ."-w <warning_threshold> -c <critical_threshold> [--help] "
 			."[-p protocol] [-v] -[t timeout]",
 	version => '0.1.0',
-	url     => 'http://dann.stayskal.com/software/check_freebsd',
+	url     => 'http://danne.stayskal.com/software/check_freebsd',
 	license => 'This nagios plugin is free software, and comes with '
 			  ."ABSOLUTELY NO WARRANTY.\nIt may be used, redistributed "
 			  ."and/or modified under the terms of the \nGNU General "
@@ -211,13 +211,13 @@ Team.  Further reading on Nagios, NPRE, and Nagios Plugins is available at
 
 =head1 AUTHOR
 
-This script is written and maintained by Dann Stayskal <dann@stayskal.com>
+This script is written and maintained by Danne Stayskal <danne@stayskal.com>
 and is available on his website, at
-<http://dann.stayskal.com/software/check_frebsd/>.
+<http://danne.stayskal.com/software/check_frebsd/>.
 
 =head1 LICENSE
 
-Copyright (C) 2009 by Dann Stayskal.
+Copyright (C) 2009 by Danne Stayskal.
 
 This program is free software; you can redistribute it and/or modify it under 
 the terms of the GNU General Public License as published by the Free Software 
