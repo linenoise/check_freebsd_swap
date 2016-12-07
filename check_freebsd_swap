@@ -12,7 +12,7 @@ check_freebsd_swap - Nagios plugin to report on FreeBSD aggregate swap file usag
 use strict;
 
 use Data::Dumper;   ### For generating debug output in verbose mode
-use Nagios::Plugin; ### For communicating with the nagios server
+use Nagios::Monitoring::Plugin; ### For communicating with the nagios server
 
 
 ### Know what we're working with
